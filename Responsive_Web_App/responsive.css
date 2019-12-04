@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 1600px){
+/*top left homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 0px 0px;} 
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1600px){
+/*top right homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 315px 0px;} 
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+/*bottom left homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 0px -315px;} 
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+/*bottom right homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 315px 315px;} 
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px){
+/*bottom left homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 0px -315px;} 
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px){
+/*top right homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 315px 0px;} 
+}
+
+@media screen and (max-width: 600px){
+/*top left homer*/
+.homer{width: 315px; height: 315px;
+background:url(homer.jpg) 0px 0px;} 
+}

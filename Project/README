@@ -1,0 +1,35 @@
+/* Team: Bakar, Ugo, and Yves
+   Semester project: Negative posts filter on Reddit
+   Ming Chow, Comp 20. Spring 2019
+*/
+
+Project title: Reddit filter
+
+Problem Statement: 
+Reddit is a mass media tool with all kinds of information 
+accessible to people of all ages. Although Reddit tends to be humorous and 
+informative on some occasions, it does tend to have users who upload negative
+material to the site or material that parents would like to filter out for their
+children or users would like to filter out for themselves. The problem is how can
+the content on Reddit be mitigated by a scale of preference, how can users on Reddit
+filter out the content they don't want to see or hear and still enjoy what Reddit
+has to offer. 
+
+How do you solve the problem: 
+We intend to solve the problem by using Google's machine
+learning API to classify content on each Reddit page. The machine learning model would
+be trained to spot purely negative content to totally harmless content. The model 
+also learns the difference between both ends in a continuous form, meaning the model is
+aware of content that is slightly harmful and very harmful; it is not a discrete 
+classification process, but a scale between the harmful and harmless end. 
+The machine learning model becomes the backend to the Google chrome extension we intend
+to create, the extension gives the user the ability to mitigate the amount of negativity
+that is displayed on a Reddit page. 
+
+Features to implement:
+
+Data prototype uses: 
+
+Algorithms that will be necessary:
+
+Electronic mockup:
